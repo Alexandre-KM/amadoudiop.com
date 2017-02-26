@@ -1,0 +1,94 @@
+/*
+ * Changes the background-color
+*/
+body, html {
+    height: 100%;
+}
+.creemson-background {
+  animation: colorchange 100s; /* animation-name followed by duration in seconds*/
+     /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 100s; /* Chrome and Safari */
+}
+
+@keyframes colorchange
+{
+  0%   {background: #f06060;}
+  25%  {background: #52be7f;}
+  50%  {background: #2972c3;}
+  75%  {background: #674172;}
+  100% {background: #f06060;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: #f06060;}
+  25%  {background: #52be7f;}
+  50%  {background: #2972c3;}
+  75%  {background: #674172;}
+  100% {background: #f06060;}
+
+
+}
+.creemson-color {
+  animation: colortextchange 100s; /* animation-name followed by duration in seconds*/
+     /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colortextchange 100s; /* Chrome and Safari */
+}
+
+@keyframes colortextchange
+{
+  0%   {color: #f06060;}
+  25%  {color: #52be7f;}
+  50%  {color: #2972c3;}
+  75%  {color: #674172;}
+  100% {color: #f06060;}
+}
+
+@-webkit-keyframes colortextchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {color: #f06060;}
+  25%  {color: #52be7f;}
+  50%  {color: #2972c3;}
+  75%  {color: #674172;}
+  100% {color: #f06060;}
+}
+
+/* Parralax header */
+.container{
+    height: 98%;
+}
+header {
+
+    width: 100%;
+    max-width: 100%;
+    background-image: url(../images/masterjin.jpg) !important ;
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    header {
+        background-attachment: scroll;
+    }
+}
+
+.parallax{
+  max-width: 100% !important;
+  background-image: url(../images/creemsoncold.jpg);
+  min-height: 400px;
+
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

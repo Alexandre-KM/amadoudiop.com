@@ -1,0 +1,289 @@
+/**
+ * Module subscriptionsmanager
+ * @author Martin MASSE
+ * @author aduler.com
+ */
+/* BACK OFFICE */
+.interface {
+	font-size: 90%;
+}
+
+#formschema label,#formconfig label {
+	width: auto;
+}
+
+#formschema legend,#formconfig legend {
+	background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+	color: white;
+	border: none;
+	padding: 8px;
+	font-weight: normal;
+}
+
+#formschema fieldset,#formconfig fieldset {
+	background: #Fff;
+	color: #C0C0C0;
+	border: none;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	margin-bottom: 1em;
+}
+
+#formschema input[type="text"],#formconfig input[type="text"] {
+	padding: 5px;
+}
+
+#formschema select,#formconfig select {
+	padding: 5px;
+	width: 40%;
+}
+
+table.sm_list th {
+	font-size: 11px !important;
+}
+
+table.sm_list {
+	width: 100%;
+}
+
+/*  FRONT OFFICE */
+table.subscriptionlist h4 {
+	padding: 5px;
+	background: #c0c0bb;
+	width: 100%;
+	color: white;
+}
+
+table.subscriptionlist td#detail {
+	cursor: pointer;
+}
+
+.oneshot_alreadypaid {
+	color: green;
+	text-decoration: line-through;
+	font-weight: bold;
+}
+
+.oneshot_paid {
+	color: green;
+	font-weight: bold;
+}
+
+.recurring_alreadypaid {
+	color: green;
+	text-decoration: line-through;
+	font-weight: bold;
+}
+
+.recurring_topay {
+	color: red;
+	font-weight: bold;
+}
+
+/* Filtres de recherche d'abonnement */
+#subscriptions_filters  legend {
+	background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+	color: white;
+	border: none;
+	padding: 8px;
+	font-weight: normal;
+}
+
+#subscriptions_filters {
+	padding: 1em;
+	back
+}
+
+#subscriptions_filters form label {
+	width: auto;
+	float: none;
+	font-weight: normal;
+}
+
+a.pagination_link {
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid #C0C0C0;
+	background: #F0F0F0;
+}
+a.current_page {
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid #fff;
+	background: #44ADEA;
+	margin: 0 4px;
+	color: #fff;
+}
+/* FIN  Filtres de recherche d'abonnement */
+
+/* Liste des abonnements */
+
+.activated, .disabled, .completed, .cancelled{
+    padding: 3px 0px; 
+    background-color: #666; 
+    text-transform: uppercase; 
+    font-size: 10px; 
+    color: #fff;
+    width: 70px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+}
+.disabled{
+    background-color: #f8f8f8; 
+    border-left: 3px solid #666666;
+    color: #666666;
+}
+.cancelled{
+    background-color: #F2DEDE; 
+    border-left: 3px solid #E17875;
+    color: #E17875;
+}
+.completed{
+    background-color: #F8FCFE; 
+    border-left: 3px solid #81CFE6;
+    color: #31B0D5;
+}
+.activated{
+    background-color: #DFF0D8; 
+    border-left: 3px solid #7CC67C;
+    color: #7CC67C;
+}
+
+/* Fin liste des abonnements */
+
+
+/* Détail d'un abonnement */
+.view_subscription_block{ text-align: center;}
+.ui-dialog #stats{ float: none; margin-left: 15px; width: auto; background: #eee; padding: 5px 15px 15px; margin: 5px 15px; text-align: center; display: inline-block;}
+.ui-dialog #stats #stats_info{ float: left; width: 400px; height: 170px; background: #fff; margin-right: 10px; padding: 15px 0;  margin-top: 10px; }
+.ui-dialog #stats #stats_amount{ float: left; width: 400px; height: 170px; background: #fff; margin-right: 10px; padding: 15px 0;  margin-top: 10px; }
+.ui-dialog #stats #stats_container{ float: left; width: 400px; height: 200px; margin-top: 10px; }
+.ui-dialog #stats #stats_dates{ float: left; width: 100%; height: 36px; background: #fff; padding: 3px 0; }
+.ui-dialog #stats #stats_locking{ float: left; width: 100%; height: 36px; background: #fff; margin-top: 10px; padding: 4px 0;}
+.ui-dialog #stats #stats_groups{ float: left; width: 100%; height: 36px; background: #fff; margin-top: 10px; padding: 3px 0;}
+.ui-dialog #stats #stats_actions{ float: left; width: 100%; height: 36px; background: #fff; margin-top: 10px; padding: 3px 0; text-align: center;}
+.ui-dialog #stats #stats_actions a{ text-decoration: none; font-size: 11px;}
+.ui-dialog #stats #stats_actions a i{ padding-right: 2px;}
+.ui-dialog #customer_detail{ float: right; margin-right: 15px;}
+.ui-dialog h3{ float: left; width: 100%;}
+.ui-dialog .echeances_list{ float: left; width: 100%;}
+
+.ui-dialog .inline{ padding: 0 10px; float: left; width: auto; clear: left; margin: 2px 0;}
+.ui-dialog .inline .label{ 
+    float: left;
+    font-size: 11px;
+    text-align: left;
+    width: 160px;
+}
+.ui-dialog .inline span{ text-align: center;}
+.ui-dialog #stats_amount .inline span{ width: 215px;}
+
+.ui-dialog #stats #stats_dates .inline{ float: left; width: 32%; padding: 0; margin: 0; text-align: center; clear: none;}
+.ui-dialog #stats #stats_dates .inline .label{ float: left; width: 100%; text-align: center;}
+
+.ui-dialog #stats #stats_locking .inline{ float: left; width: 50%; padding: 0; margin: 0; text-align: center; clear: none;}
+.ui-dialog #stats #stats_locking .inline .label{ float: left; width: 100%; text-align: center;}
+
+.ui-dialog #stats #stats_groups .inline{ float: left; width: 50%; padding: 0; margin: 0; text-align: center; clear: none;}
+.ui-dialog #stats #stats_groups .inline .label{ float: left; width: 100%; text-align: center;}
+
+.ui-dialog #stats #stats_actions a,
+.ui-dialog #stats #stats_actions span{ margin-top: 6px; display: inline-block;}
+
+
+
+#stats_dates .activated, #stats_dates .disabled, #stats_dates .completed, #stats_dates .cancelled{ width: 100px;}
+
+.echeances_list table thead tr{ border-bottom: 1px solid #A0D0EB;}
+.echeances_list table thead tr th{ padding: 5px 0; text-transform: uppercase;}
+.echeances_list table tbody tr{ border-bottom: 1px solid #dedede;}
+.echeances_list table tbody tr td{ padding: 3px 0;}
+
+
+
+/* Fin détail d'un abonnement */
+
+.reset_filters{ float: right;}
+
+
+
+
+/* Liste des logs */
+
+table.sm_list tbody tr td.green-line{
+    background-color: #DFF0D8; 
+    border-left: 3px solid #7CC67C;
+    color: #3C763D;
+}
+table.sm_list tbody tr td.blue-line{
+    background-color: #F8FCFE; 
+    border-left: 3px solid #81CFE6;
+    color: #31B0D5;
+}
+table.sm_list tbody tr td.grey1-line{
+    background: #fef8fe;
+    border-left: 3px solid #da81e6;
+    color: #da81e6;
+}
+table.sm_list tbody tr td.red-line{
+    background-color: #F2DEDE; 
+    border-left: 3px solid #E17875;
+    color: #E17875;
+}
+table.sm_list tbody tr td.grey2-line{
+    color: #EEEEEE;
+}
+table.sm_list tbody tr td.orange-line{
+    background-color: #FCF8E3; 
+    border-left: 3px solid #F4C178;
+    color: #F4C178;
+}
+table.sm_list tbody tr td.white-line{
+    background-color: #FFFFFF;
+    border-left: 3px solid #333333;
+    color: #333333;
+}
+
+
+/* INTERFACE */
+
+#tabs{
+    border-color: #DEDEDE;
+    border-radius: 0;
+    margin-bottom: 25px;
+    padding: 0;
+}
+#tabs ul.tab{
+    background: #fff !important;
+    border: none;
+    border-bottom: 1px solid #dedede;
+    border-radius: 0;
+    padding: 0;
+}
+#tabs ul.tab li{
+    margin: 0 2px 0 0;
+}
+#tabs ul.tab li i{ padding-right: 4px;}
+#tabs ul.tab li a{ 
+    border-radius: 0;
+}
+#tabs .ui-state-default{ 
+    background: none repeat scroll 0 0 #F8FCFE;    
+    border: none !important;    
+    border-left: 3px solid #81CFE6 !important;    
+    border-radius: 0;
+    padding-bottom: 0;
+}
+#tabs .ui-state-default a{ color: #31B0D5;}
+
+#tabs .ui-tabs-active{ 
+    background: none repeat scroll 0 0 #DFF0D8;    
+    border: none !important;    
+    border-left: 3px solid #7CC67C !important;       
+    border-radius: 0;
+    padding-bottom: 0;
+}
+#tabs .ui-tabs-active a{ color: #3C763D;}
+
+
+.ui-dialog{ width: 70% !important;}

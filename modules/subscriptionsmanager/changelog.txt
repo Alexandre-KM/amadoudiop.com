@@ -1,0 +1,148 @@
+Nouveautés v4.0.4 [SANS NOUVELLE INSTALLATION]:
+- Amélioration du design du module Back-Office 
+- Amélioration du design du module Front-Office
+- Amélioration de l'ergonomie du module
+- Correction d'un bug mineur affichant le bouton réduction pour des abonnements sans réduction
+- Correction de la gestion des onglets du module en Back-Office pour Prestashop 1.6.x.x
+- Correction de l'onglet déclinaisons pour les produits transformés en abonnements
+- Suppression de l'onglet "Gestion des abonnements" dans les onglets d'édition d'un produit en Back-Office
+- Nouveau logo du module
+- Module responsive en Back-Office
+
+----------------------
+
+Nouveautés v4.0.3 [SANS NOUVELLE INSTALLATION]:
+- Déblocage & gestion de la période d'essai avec les schémas utilisant le mode de paiement Paypal abonnement
+- Déblocage & gestion des réductions avec les schémas utilisant le mode de paiement Paypal abonnement
+- Correction sur les blocages JQuery sur la page de création/edition d'un schéma
+- Correction de bugs mineurs
+
+----------------------
+
+Nouveautés v4.0.2 [SANS NOUVELLE INSTALLATION]:
+- Blocage de la période d'essai avec les schémas utilisant le mode de paiement Paypal abonnement
+- Blocage des migrations avec les schémas utilisant le mode de paiement Paypal abonnement
+- Blocage du renouvellement automatique avec les schémas utilisant le mode de paiement Paypal abonnement
+- Blocage des réductions avec les schémas utilisant le mode de paiement Paypal abonnement
+- Modification du CRON pour les abonnements utilisant le mode de paiement Paypal abonnement	
+- Correction sur les blocages JQuery sur la page de création/edition d'un schéma
+
+----------------------
+
+Nouveautés v4.0.1 [NOUVELLE INSTALLATION NECESSAIRE]:
+- Ajout d'une traduction dans les logs (Installation du module)			
+- Correction des traductions des mois lors du chargement dynamique des fréquences sur la page de création/édition d'un schéma			
+- Correction de la pagination qui était à 1 par page			
+- Utilisation du CartCore dans le hook de création de réduction pour palier au problème de double création de CartRule			
+- Correction des calculs de préavis et d'engagement basés sur la fréquence			
+- Modification du nom du CartRule			
+- Corrections des notices Prestashop	
+
+----------------------
+
+Nouveautés v4.0 [NOUVELLE INSTALLATION NECESSAIRE]:
+- Refonte globale du code
+
+----------------------
+
+Correction v3.5 [SANS NOUVELLE INSTALLATION]
+- Correctif sur la gestion des dates du module (fins de mois)
+
+----------------------
+
+Correction v3.4 [SANS NOUVELLE INSTALLATION]
+- Correctif sur l'ensemble du module pour intégration à la boutique Addon.Prestashop
+
+----------------------
+
+Nouveautés v3.3 [NOUVELLE INSTALLATION NECESSAIRE]:
+- Ajout d'un préavis concernant le renouvellement des abonnes
+- Ajout d'un groupe de retour une fois l'abonnement termine
+Correctifs
+- Correction du bouton retour qui emmenait vers une mauvaise URL
+- Ajout du groupe des abonnes dans leur groupe par defaut
+- A la fin d'un abonnement si d'autres abonnements sont en cours, le groupe du client ne change pas
+- Correction de certaines traductions
+
+----------------------
+
+Correction v3.2 [SANS NOUVELLE INSTALLATION]:
+- Correction des prix dans le front office : le prix affiché comprend les frais de port éventuels
+- Ajout d'une clé de sécurité pour lancer le CRON
+
+----------------------
+
+Nouveautés v3.1 [SANS NOUVELLE INSTALLATION]:
+Correctifs :
+- Affichage de la version dans l'interface
+- Maj traduction
+
+----------------------
+
+Nouveautés v3.0 [SANS NOUVELLE INSTALLATION]:
+Correctifs :
+- Correction d'une erreur dans le CRON
+- Correction d'un bug de génération de facture inutile sur les abonnements en paiement direct
+
+
+
+----------------------
+
+Nouveautés v2.9 [SANS NOUVELLE INSTALLATION]:
+Correctifs :
+- bug d'affichage sur le backoffice des montants des abonnements
+
+
+
+----------------------
+
+Nouveautés v2.8 [SANS NOUVELLE INSTALLATION]:
+Correctifs :
+- bug d'affichage sur le backoffice du détail des abonnements en paiement immédiat (page blanche)
+
+
+
+----------------------
+
+Nouveautés v2.7 [ATTENTION ! NON COMPATIBLE AVEC LE MODULE PaypalSubscriptions 1.x]:
+Nouvelles fonctionnalités :
+- Compatible module PaypalSubscriptions 2.0
+
+Correctifs :
+
+
+----------------------
+
+Nouveautés v2.6:
+Nouvelles fonctionnalités :
+- Passage des états du paiement du front en classe CSS, pour pouvoir adapter l'affichage
+
+Correctifs :
+- Sur le front, dans "mes abonnements", affichage correct du "Total à payer"
+
+----------------------
+
+Nouveautés v2.5:
+Nouvelles fonctionnalités :
+- mécanique interdisant le panachage produits classiques et abonnements dans le panier
+
+
+Correctifs :
+- status cohérent de l'abonnement tant que le paiement n'est pas validé
+- forçage dès la commande de la date de fin et d'anniversaire au 28 si elle est dans une plage 29-31.
+- correctif du calcul du total par abonnement, en cas de paiement "one shot" (le total = prix de vente du produit)
+
+----------------------
+
+Nouveautés v2.4:
+Nouvelles fonctionnalités :
+- A la création d'un schéma, possibilité de lier l'abonné à un groupe
+- Ajout d'un bouton "Lancer immédiatement le Cron" en BO
+
+Correctifs :
+- Détail d'un abonnement : affichage des décimales
+- meilleure gestion des abonnements pris en fin de mois
+- rajout de sécurité sur la configuration des schémas
+- affichage plus intuitif des paiements pour les abonnements "one-shot"
+- correction du bug de validation immédiate de l'abonnement
+- corrections de bugs mineurs dans le code

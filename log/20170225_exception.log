@@ -1,0 +1,9 @@
+*ERROR* 	2017/02/25 - 11:54:17: Property Customer->lastname is empty at line 909 in file classes/ObjectModel.php
+*ERROR* 	2017/02/25 - 11:56:10: Property Customer->lastname is empty at line 909 in file classes/ObjectModel.php
+*ERROR* 	2017/02/25 - 12:01:52: Property Customer->email is empty at line 909 in file classes/ObjectModel.php
+*ERROR* 	2017/02/25 - 12:03:33: Property Customer->siret is not valid at line 909 in file classes/ObjectModel.php
+*ERROR* 	2017/02/25 - 12:42:43: Property Address->id_country is empty at line 909 in file classes/ObjectModel.php
+*ERROR* 	2017/02/25 - 12:44:50: Property Address->id_country is empty at line 909 in file classes/ObjectModel.php
+*ERROR* 	2017/02/25 - 12:57:48: Property Address->address1 is not valid at line 909 in file classes/ObjectModel.php
+*ERROR* 	2017/02/25 - 13:10:19: Property Address->address1 is not valid at line 909 in file classes/ObjectModel.php
+*ERROR* 	2017/02/25 - 13:18:15: Property Address->address1 is not valid at line 909 in file classes/ObjectModel.php

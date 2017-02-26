@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Amadou Diop | FullStack Developer</title>
+		<meta name="description" content="We can provide you with the website you need" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/portfolio.css" />
+		<link rel="stylesheet" type="text/css" href="css/circular-menu.css" />
+		<link rel="stylesheet" type="text/css" href="css/dope-menu.css" />
+		<link rel="stylesheet" type="text/css" href="css/creemson.css" />
+		<link rel="stylesheet" type="text/css" href="css/creemson-background.css" />
+		<link rel="stylesheet" type="text/css" href="css/desktop-border.css" />
+		<!-- slick -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css"/>
+		<!-- Add the slick-theme.css if you want default styling -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css"/>
+
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/modernizr-2.6.2.min.js"></script>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-91777585-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+	</head>
+
+	<body class="creemson-background">
+		<div class="container">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				<span class="right"><a class="" href="images/cv.pdf"><span>Get my CV in pdf</span></a></span>
+			</div>
+			<header>
+				<h1>Amadou Diop <span>FullStack Developer</span></h1>
+				<nav class="codrops-demos">
+					<a class="current-demo" href="#portfolio">My portfolio</a>
+					<a href="#contact">Contact me</a>
+				</nav>
+			</header>
+			<section id="about">
+				<h2>About</h2>
+				<p>Titulaire d’un BTS Services Informatiques aux Organisation (BAC +2)
+
+				je passe un Bachelor en Développement Web (BAC +3) de L’ESGI (école supérieure de génie informatique Paris).
+
+				J’ai fait deux années en alternance à L’Agence Websiting en tant que développeur web.
+
+				Ma formation et mes différentes expériences professionelles m’ont permis de développer mes compétences.
+
+				Sérieux, force de proposition et dynamique au travail,
+
+				je suis à la recherche de nouvelles experiences en alternance pour la rentrée de Septembre 2016.</p>
+			</section>
+
+			<section id="portfolio">
+				<h2 class="creemson-color">My portfolio</h2>
+
+				<div class="main">
+					<ul id="og-grid" class="og-grid">
+						<li>
+							<a href="https://senepeople.com" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+								<img src="images/thumbs/1.jpg" alt="img01"/>
+							</a>
+						</li>
+						<li>
+							<a href="https://begreen-company.com" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+								<img src="images/thumbs/2.jpg" alt="img02"/>
+							</a>
+						</li>
+						<li>
+							<a href="https://prod-hair.com/" data-largesrc="images/3.jpg" data-title="Dandelion horseradish" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+								<img src="images/thumbs/3.jpg" alt="img03"/>
+							</a>
+						</li>
+						<li>
+							<a href="https://galerie-drylewicz.com/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+								<img src="images/thumbs/1.jpg" alt="img01"/>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<!--
+			<section id="skills">
+
+				<h2>Skills</h2>
+				<div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+					<div><h3>1</h3></div>
+					<div><h3>2</h3></div>
+					<div><h3>3</h3></div>
+					<div><h3>4</h3></div>
+					<div><h3>5</h3></div>
+					<div><h3>6</h3></div>
+				</div>
+			</section>
+			-->
+
+
+			<section class="parallax">
+				<div class="container">
+					<h2>CONTACT ME</h2>
+				</div>
+			</section>
+			<section id="contact">
+				<form>
+					<div class="input">
+						<input type="email" name="email" placeholder="email">
+					</div>
+					<div class="input">
+						<textarea placeholder="message"></textarea>
+					</div>
+					<div class="input">
+						<input type="submit" value="Send">
+					</div>
+				</form>
+			</section>
+
+
+
+
+			<footer>
+
+				<div class="container">
+					<h3>Network</h3>
+					<ul class="network">
+						<li>Github</li>
+						<li>LinkedIn</li>
+						<li>Viadeo</li>
+					</ul>
+					<h3>Colaborators</h3>
+					<ul class="network">
+						<li><a href="https://www.alexandrecarette.com/">Alexandre Carrette</a></li>
+						<li><a href="http://guillaume-fradeira.com/">Guillaume Fradeira</a></li>
+						<li><a href="#">Nitish Peroo</a></li>
+					</ul>
+					<span>Copyright © 2017</span>
+				</div>
+			</footer>
+
+			<div class="component">
+				<!-- Start Nav Structure -->
+				<button class="cn-button" id="cn-button">+</button>
+				<div class="cn-wrapper" id="cn-wrapper">
+				    <ul>
+				      <li><a href="#about"><span class="icon-headphones"></span></a></li>
+				      <li><a href="#portfolio"><span class="icon-picture"></span></a></li>
+				      <li><a href="#"><span class="icon-home"></span></a></li>
+				      <li><a href="#"><span class="icon-facetime-video"></span></a></li>
+				      <li><a href="#contact"><span class="icon-envelope-alt"></span></a></li>
+				     </ul>
+				</div>
+				<div id="cn-overlay" class="cn-overlay"></div>
+				<!-- End Nav Structure -->
+			</div>
+		</div><!-- /container -->
+		<script src="js/polyfills.js"></script>
+		<script src="js/circular-menu.js"></script>
+		<script src="js/creemson.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/grid.js"></script>
+		<!-- slick -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
+	</body>
+</html>

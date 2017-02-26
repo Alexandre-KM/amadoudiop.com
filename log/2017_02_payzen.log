@@ -1,0 +1,102 @@
+*INFO* 	2017/02/23 - 09:12:38: Form data generation for cart #22 with standard sub-module.
+*INFO* 	2017/02/23 - 09:12:38: Data to be sent to payment platform : Array
+(
+    [signature] => e2b015a058f195005b841a7994f561b435ee6758
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 66000
+    [vads_contrib] => PrestaShop1.5-1.7_1.8.0/1.6.1.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 357 bd Pierre Delmas
+    [vads_cust_city] => Antibes
+    [vads_cust_country] => FR
+    [vads_cust_email] => contact@alexandrecarette.com
+    [vads_cust_first_name] => Alexandre
+    [vads_cust_id] => 1
+    [vads_cust_last_name] => Carette
+    [vads_cust_legal_name] => CARETTE Alexandre
+    [vads_cust_phone] => 06 43 53 99 48
+    [vads_cust_title] => M
+    [vads_cust_zip] => 06600
+    [vads_insurance_amount] => 0
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 22
+    [vads_order_info] => Paiement par carte bancaire
+    [vads_page_action] => PAYMENT
+    [vads_payment_config] => SINGLE
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Antibes
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => Alexandre
+    [vads_ship_to_last_name] => Carette
+    [vads_ship_to_legal_name] => CARETTE Alexandre
+    [vads_ship_to_phone_num] => 06 43 53 99 48
+    [vads_ship_to_street] => 357 bd Pierre Delmas
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 06600
+    [vads_shipping_amount] => 0
+    [vads_site_id] => 12345678
+    [vads_tax_amount] => 0
+    [vads_trans_date] => 20170223081238
+    [vads_trans_id] => 331587
+    [vads_url_return] => https://amadoudiop.com/module/payzen/submit
+    [vads_version] => V2
+    [vads_product_label0] => Billet d intervention 60 euros heure
+    [vads_product_amount0] => 6000
+    [vads_product_qty0] => 11
+    [vads_product_ref0] => 5
+    [vads_product_type0] => FOOD_AND_GROCERY
+)
+
+*INFO* 	2017/02/23 - 19:30:55: Form data generation for cart #25 with standard sub-module.
+*INFO* 	2017/02/23 - 19:30:55: Data to be sent to payment platform : Array
+(
+    [signature] => 9eeb92a8656c61748800a4a6ea2d61dbc6d3110b
+    [vads_action_mode] => INTERACTIVE
+    [vads_amount] => 12000
+    [vads_contrib] => PrestaShop1.5-1.7_1.8.0/1.6.1.11
+    [vads_ctx_mode] => TEST
+    [vads_currency] => 978
+    [vads_cust_address] => 357 bd Pierre Delmas
+    [vads_cust_city] => Antibes
+    [vads_cust_country] => FR
+    [vads_cust_email] => contact@alexandrecarette.com
+    [vads_cust_first_name] => Alexandre
+    [vads_cust_id] => 1
+    [vads_cust_last_name] => Carette
+    [vads_cust_legal_name] => CARETTE Alexandre
+    [vads_cust_phone] => 06 43 53 99 48
+    [vads_cust_title] => M
+    [vads_cust_zip] => 06600
+    [vads_insurance_amount] => 0
+    [vads_language] => fr
+    [vads_nb_products] => 1
+    [vads_order_id] => 25
+    [vads_order_info] => Paiement par carte bancaire
+    [vads_page_action] => PAYMENT
+    [vads_payment_config] => SINGLE
+    [vads_return_mode] => GET
+    [vads_ship_to_city] => Antibes
+    [vads_ship_to_country] => FR
+    [vads_ship_to_first_name] => Alexandre
+    [vads_ship_to_last_name] => Carette
+    [vads_ship_to_legal_name] => CARETTE Alexandre
+    [vads_ship_to_phone_num] => 06 43 53 99 48
+    [vads_ship_to_street] => 357 bd Pierre Delmas
+    [vads_ship_to_street2] => 
+    [vads_ship_to_zip] => 06600
+    [vads_shipping_amount] => 0
+    [vads_site_id] => 12345678
+    [vads_tax_amount] => 0
+    [vads_trans_date] => 20170223183055
+    [vads_trans_id] => 702557
+    [vads_url_return] => https://amadoudiop.com/module/payzen/submit
+    [vads_version] => V2
+    [vads_product_label0] => Billet d intervention 60 euros heure
+    [vads_product_amount0] => 6000
+    [vads_product_qty0] => 2
+    [vads_product_ref0] => 5
+    [vads_product_type0] => FOOD_AND_GROCERY
+)
+

@@ -1,0 +1,1 @@
+*ERROR* 	2017/02/23 - 08:24:02: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1<br /><br /><pre>UPDATE `ps_cart` SET `signature` = '',`ip_address` = '176.131.13.179' WHERE id_cart=</pre> at line 791 in file classes/db/Db.php

@@ -1,0 +1,2 @@
+{if $op == 'getAllowedFrequencies'}
+{/if}

@@ -1,0 +1,56 @@
+table.subscriptionlist h4 {
+    padding: 5px;
+    background: #c0c0bb;
+    width: 100%;
+    color: white;
+}
+table.subscriptionlist td#detail {
+   cursor: pointer;
+}
+
+.oneshot_alreadypaid {
+    color: green; 
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.oneshot_paid {
+    color: green; 
+    font-weight: bold;
+}
+
+.recurring_alreadypaid {
+    color: green;
+    text-decoration: line-through;
+    font-weight: bold;   
+}
+
+.recurring_topay {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+.activated, .disabled, .completed, .cancelled{
+    padding: 3px 0px; 
+    background-color: #666; 
+    text-transform: uppercase; 
+    font-size: 10px; 
+    color: #fff ;
+    width: 70px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+}
+td .disabled{color: #fff !important;}
+    
+.cancelled{
+    background-color: #FF6B68; 
+}
+.completed{
+    background-color: #68CAFF; 
+}
+.activated{
+    background-color: #6FDB6D; 
+}
