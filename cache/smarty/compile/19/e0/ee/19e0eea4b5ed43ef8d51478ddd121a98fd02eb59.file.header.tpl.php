@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-02-26 16:05:33
+<?php /* Smarty version Smarty-3.1.19, created on 2017-02-26 17:46:17
          compiled from "/Users/Alex/Desktop/sites-git/amadoudiop.com/themes/default-amadoudiop/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:75166994358b2ed6503ee30-15213988%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '19e0eea4b5ed43ef8d51478ddd121a98fd02eb59' => 
     array (
       0 => '/Users/Alex/Desktop/sites-git/amadoudiop.com/themes/default-amadoudiop/header.tpl',
-      1 => 1488121528,
+      1 => 1488126432,
       2 => 'file',
     ),
   ),
@@ -241,6 +241,7 @@ index.php?mylogout"><span>Logout</span></a></span>
 				<span class="right"><a class="" href="		commande"><span>Cart</span></a></span>
 
 				<span class="right"><a class="" href="services-12.htm"><span>Services</span></a></span>
+				<span class="right"><a class="" href="services-12.htm"><span>test git</span></a></span>
 
 
 			</div>
